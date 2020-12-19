@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@500&display=swap');
+
+@keyframes gantiWarna {
+  from {background-color: blue;}
+  to {background-color: green;}
+}
+
+body {
+  background-color: blue;
+  animation-name: gantiWarna;
+  animation-duration: 5s;
+}
+
+.kotak {
+  width: 500px;
+  height: 500px;
+  background-image: radial-gradient(blue, red, yellow);
+  box-shadow: 10px 10px 20px blue;  
+  transition: 2s;
+}
+
+.kotak:hover {
+  transform: translate(100px, 200px);
+}
+
+p {
+  /* white-space: nowrap;
+  width: 200px;
+  border: 1px solid black;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+  /* font-family: 'Big Shoulders Inline Text', cursive; */
+}
